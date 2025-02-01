@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="up">Welcome to Wordle</h1>
+<p class="name">what's your Name?</p>
+<input type="text" placeholder="          Your Name">
+<a href="https://jogendrasarratiya.github.io/what-are-you-using-/">Submit</a>
+<div id="how">
+    <h1 id="heading">How To Play</h1>
+<h3>Guess the Wordle in 6 tries.</h3>
+<p class="play1">1. Each guess must be a valid 5-letter word. </p>
+<p class="play">2. The color of the tiles will change to show how close your guess was to the word.</p>
+<h4 id="Example">Example :-</h4>
+<div id="word">
+    <div id="correct">
+        <h1 class="h1" id="w">W</h1>
+        <h1 class="h2">O</h1>
+        <h1 class="h3">R</h1>
+        <h1 class="h4">D</h1>
+        <h1 class="h5">Y</h1>
+    </div>
+
+    <p class="correct"><span><h4 class="W">W</h4></span> is in the word and in the correct spot.</p>
+    <div id="wrong">
+        <h1 class="h1">L</h1>
+        <h1 class="h2" id="i">I</h1>
+        <h1 class="h3">G</h1>
+        <h1 class="h4">H</h1>
+        <h1 class="h5">T</h1>
+    </div>
+
+    <P class="wrong"><span><h4 class="W">I</h4></span> is the word but in the wrong spot.</P>
+    <div id="incorrect">
+        <h1 class="h1">R</h1>
+        <h1 class="h2">O</h1>
+        <h1 class="h3">G</h1>
+        <h1 class="h4" id="u">U</h1>
+        <h1 class="h5">E</h1>
+    </div>
+
+    <P class="incorrect"><span><h4 class="W">U</h4></span> is not in the word in any spot.</P>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
